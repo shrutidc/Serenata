@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Serenata</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome <span id="userName"></span> to Serenata!</h1>
+        <p>We're excited to help you find the perfect music for your mood.</p>
+        <div class="upload-section">
+            <h2>Upload a picture</h2>
+            <input type="file" id="imageUpload" accept="image/*" class="file-input">
+            <label for="imageUpload" class="file-label">Choose an image</label>
+            <div id="imagePreview" class="image-preview"></div>
+        </div>
+        <button id="continueBtn" class="cta-button" disabled>Continue</button>
+    </div>
+
+    <script src="welcome.js"></script>
+</body>
+</html>
